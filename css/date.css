@@ -1,0 +1,73 @@
+/* Base styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #fff5e4;
+  color: #ff9494;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 800px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.poem {
+  margin: 3rem 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.date-label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.date-input-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.date-input,
+.button,
+.answerButton,
+input[type="date"] {
+  padding: 0.8rem 1.5rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #ffe3e1;
+  color: #e67373;
+  border-radius: 12px;
+  border: 2px solid #ffe3e1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #ff9494;
+  color: #ffe3e1;
+  border: 2px solid #ff9494;
+}
